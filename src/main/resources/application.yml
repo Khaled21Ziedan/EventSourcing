@@ -1,0 +1,13 @@
+server :
+  port : 1891
+spring :
+  data :
+  datasource :
+    url : jdbc:h2:mem:testUser
+    username : sa
+    password : 1234
+  h2 :
+    console :
+      enabled : true
+  application :
+    name : event-sourcing
